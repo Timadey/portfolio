@@ -1,7 +1,7 @@
 export const portfolioData = {
     personal: {
         name: "Timothy Adeleke",
-        title: "Backend & Fullstack Engineer",
+        title: "Software Engineer",
         tagline: "I build production-grade systems, automate workflows, and optimize performance for products that serve thousands of users.",
         email: "dlktimothy@gmail.com",
         location: "Lagos, Nigeria",
@@ -53,7 +53,7 @@ export const portfolioData = {
         {
             name: "Windsms",
             description: "High-volume SMS marketing platform with intelligent routing, delivery analytics, and automated scheduling.",
-            tech: ["Laravel", "Python", "React", "Postgres"],
+            tech: ["Laravel", "Inertia", "ReactJs", "Postgres", "TailwindCSS"],
             liveLink: "https://timadey.alwaysdata.net",
             githubRepo: "https://github.com/Timadey/windsms",
             image: "/images/windsms.png"
@@ -76,7 +76,7 @@ export const portfolioData = {
         {
             name: "Docs & Decks Website & Admin Portal",
             description: "Responsive landing site with payment flow, plus an admin backend for student tracking and payment verification.",
-            tech: ["Laravel", "MySQL", "Tailwind", "JavaScript"],
+            tech: ["Laravel", "Supabase", "Tailwind", "ReactJs"],
             liveLink: "https://www.docsanddecks.com",
             githubRepo: "https://github.com/Timadey/docsanddecks",
             image: "/images/docsanddecks.jpeg"
@@ -88,6 +88,14 @@ export const portfolioData = {
             githubRepo: "https://github.com/Timadey/Docs-and-Decks-Telegram-Bot",
             liveBot: "https://t.me/DocsandDecksBot",
             image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=400&fit=crop"
+        },
+        {
+            name: "MeBudget",
+            description: "A personal budget, expense and investment tracking application. Not the regular one.",
+            tech: ["ReactJs", "TailwindCSS", "Supabase"],
+            githubRepo: "https://github.com/Timadey/mebudget",
+            liveDemo: "https://mebudget-eta.vercel.app/",
+            image: "/images/mebudget.png"
         }
     ],
 
