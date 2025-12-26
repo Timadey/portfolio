@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { Code, Layers, Workflow, Zap } from 'lucide-react';
+import { Code, Layers, Server, Workflow, Zap } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
 
 const WhatIBuild = () => {
     const { whatIBuild } = portfolioData;
 
-    const icons = [Code, Layers, Workflow, Zap];
+    const icons = [Server, Zap];
 
     const containerVariants = {
         hidden: { opacity: 0 },

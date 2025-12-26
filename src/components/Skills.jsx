@@ -6,11 +6,9 @@ const Skills = () => {
     const { skills } = portfolioData;
 
     const skillCategories = [
-        { title: 'Languages', icon: Code, items: skills.languages },
-        { title: 'Frameworks', icon: Package, items: skills.frameworks },
-        { title: 'Systems & Tools', icon: Server, items: skills.systems },
-        { title: 'Backend Focus', icon: Database, items: skills.backend },
-        { title: 'Product', icon: Wrench, items: skills.product },
+        { title: 'Backend', icon: Server, items: skills.backend },
+        { title: 'Frontend', icon: Code, items: skills.frontend },
+        { title: 'Infrastructure', icon: Package, items: skills.infrastructure },
     ];
 
     const containerVariants = {

@@ -3,11 +3,11 @@
 @import "tailwindcss";
 
 body {
-  background-color: #000000;
-  /* Space gradient background */
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  color: #ffffff;
+  background-color: #050505;
+  background: radial-gradient(circle at top right, #0a0a0f 0%, #050505 100%);
+  color: #f8f9fa;
   font-family: 'Inter', system-ui, sans-serif;
+  letter-spacing: -0.011em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
@@ -50,19 +50,19 @@ body::before {
 
 /* Glass card component */
 .glass-card {
-  background-color: rgba(26, 26, 26, 0.7);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(51, 51, 51, 0.5);
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
-  transition: all 0.3s ease;
+  background-color: rgba(18, 18, 18, 0.4);
+  backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .glass-card:hover {
-  background-color: rgba(34, 34, 34, 0.8);
-  border-color: #444444;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5);
-  transform: translateY(-2px);
+  background-color: rgba(25, 25, 25, 0.6);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
 }
 
 /* Text styles */
@@ -142,4 +142,94 @@ body::before {
   justify-content: center;
   color: #666666;
   font-size: 3rem;
+}
+
+/* Markdown Content Styling */
+.markdown-content {
+  line-height: 1.8;
+  color: #d1d5db;
+  font-size: 1.125rem;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  color: #ffffff;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+.markdown-content h1 {
+  font-size: 2.25rem;
+}
+
+.markdown-content h2 {
+  font-size: 1.875rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.markdown-content h3 {
+  font-size: 1.5rem;
+}
+
+.markdown-content p {
+  margin-bottom: 1.5rem;
+}
+
+.markdown-content a {
+  color: #60a5fa;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.markdown-content ul {
+  list-style-type: disc;
+}
+
+.markdown-content ol {
+  list-style-type: decimal;
+}
+
+.markdown-content li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-content code {
+  background-color: #1f2937;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.875em;
+  color: #e5e7eb;
+}
+
+.markdown-content pre {
+  background-color: #111827;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid #4b5563;
+  padding-left: 1.5rem;
+  font-style: italic;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+.markdown-content img {
+  border-radius: 0.75rem;
+  margin: 2rem 0;
+  max-width: 100%;
 }
