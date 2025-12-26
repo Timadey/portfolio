@@ -31,7 +31,7 @@ const About = () => {
                 {/* Section Header */}
                 <motion.div variants={itemVariants} className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 text-white">
-                        About Me
+                        Philosophy
                     </h2>
                     <div className="w-20 h-1 bg-white mx-auto"></div>
                 </motion.div>

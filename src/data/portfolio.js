@@ -1,8 +1,8 @@
 export const portfolioData = {
     personal: {
         name: "Timothy Adeleke",
-        title: "Software Engineer",
-        tagline: "I build production-grade systems, automate workflows, and optimize performance for products that serve thousands of users.",
+        title: "Backend-Focused Software Engineer | Systems Architect | Product Builder",
+        tagline: "Building scalable systems, practical platforms, and problem-driven products",
         email: "dlktimothy@gmail.com",
         location: "Lagos, Nigeria",
         linkedin: "https://linkedin.com/in/timadey",
@@ -10,24 +10,16 @@ export const portfolioData = {
         status: "Managing DocsandDecks"
     },
 
-    summary: "Backend-first engineer focused on building reliable systems, automating workflows, and solving real operational problems. I've shipped high-traffic services, internal tools, messaging engines, and full product flows across multiple stacks. I care about clean architecture, measurable performance gains, and delivering work that actually moves the business forward.",
+    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-offs, and long-term impact.",
 
     whatIBuild: [
         {
-            title: "High-performance backend systems",
-            description: "APIs, automation pipelines, cron services, distributed processes."
+            title: "Backend Engineering",
+            description: "Design and build backend systems with clarity and structure. Develop RESTful APIs and data-driven platforms. Focus on performance, scalability, and maintainability."
         },
         {
-            title: "Internal tools and infrastructure",
-            description: "Messaging engines, dashboards, workflow automation, monitoring."
-        },
-        {
-            title: "Full product flows",
-            description: "Authentication, payments, onboarding, admin portals."
-        },
-        {
-            title: "Scalable micro-features",
-            description: "Web scraping, integration scripts, performance optimization."
+            title: "Product Development",
+            description: "Turn vague problems into working products. Lead and coordinate technical execution. Think through systems, trade-offs, and long-term impact."
         }
     ],
 
@@ -100,10 +92,8 @@ export const portfolioData = {
     ],
 
     skills: {
-        languages: ["Python", "PHP", "JavaScript", "Go", "C"],
-        frameworks: ["Laravel", "Django", "Flask", "FastAPI", "React", "Fiber", "Gin"],
-        systems: ["Docker", "Linux", "Redis", "MySQL", "Postgres"],
-        backend: ["APIs", "automation", "scaling", "performance tuning", "observability"],
-        product: ["System design", "workflow automation", "documentation"]
+        backend: ["Python", "Django", "PHP", "Go", "PostgreSQL", "MySQL", "Redis"],
+        frontend: ["HTML5", "CSS3", "JavaScript", "TailwindCSS"],
+        infrastructure: ["Docker", "Linux", "Git", "GitHub"]
     }
 };

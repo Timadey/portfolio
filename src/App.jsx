@@ -5,6 +5,7 @@ import WhatIBuild from './components/WhatIBuild';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -17,6 +18,7 @@ function App() {
         <About />
         <WhatIBuild />
         <Projects />
+        <Blog />
         <Experience />
         <Skills />
         <Contact />

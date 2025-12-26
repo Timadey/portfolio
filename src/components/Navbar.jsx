@@ -15,11 +15,12 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'About', href: '#about' },
-        { name: 'What I Build', href: '#what-i-build' },
+        // { name: 'What I Build', href: '#what-i-build' },
         { name: 'Projects', href: '#projects' },
-        { name: 'Experience', href: '#experience' },
-        { name: 'Skills', href: '#skills' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Writings', href: '#blog' },
+        // { name: 'Experience', href: '#experience' },
+        // { name: 'Skills', href: '#skills' },
+        // { name: 'Contact', href: '#contact' },
     ];
 
     return (
