@@ -52,7 +52,7 @@ export const portfolioData = {
         },
         {
             name: "Cornvo",
-            description: "AI agent setup and testing platform for seamless business integrations. Full-stack solution with FastAPI backend, Next.js frontend, vector search, and LangGraph orchestration.",
+            description: "Give your business a full-time customer support AI agent that satisfies your customers 24/7",
             tech: ["Python", "FastAPI", "Next.js", "React", "PostgreSQL", "Qdrant", "Redis"],
             githubRepo: "https://github.com/Timadey/cornvo",
             liveLink: "https://cornvo.blackshade.site",
