@@ -10,7 +10,7 @@ export const portfolioData = {
         status: "Managing DocsandDecks"
     },
 
-    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-offs, and long-term impact.",
+    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-of[...]
 
     whatIBuild: [
         {
@@ -42,6 +42,28 @@ export const portfolioData = {
     ],
 
     projects: [
+        {
+            name: "Laravel Lazy Settings",
+            description: "Enum-driven settings package for Laravel. Global admin settings or per-entity scoped settings (user/tenant) with lazy persistence, strict validation, and encryption support.",
+            tech: ["Laravel", "PHP", "Enums"],
+            githubRepo: "https://github.com/Timadey/laravel-lazy-settings",
+            liveLink: "https://packagist.org/packages/timadey/laravel-lazy-settings",
+            image: "https://images.unsplash.com/photo-1516321318423-f06b51b53c60?w=800&h=400&fit=crop"
+        },
+        {
+            name: "TrailScope",
+            description: "Laravel request tracing and user journey observability package with step logging, dashboard insights, and database or Redis storage. Real-time HTTP tracing with role-based access control.",
+            tech: ["Laravel", "PHP", "React", "Inertia", "PostgreSQL"],
+            githubRepo: "https://github.com/Timadey/trailscope",
+            image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=800&h=400&fit=crop"
+        },
+        {
+            name: "Cornvo",
+            description: "AI agent setup and testing platform for seamless business integrations. Full-stack solution with FastAPI backend, Next.js frontend, vector search, and LangGraph orchestration.",
+            tech: ["Python", "FastAPI", "Next.js", "React", "PostgreSQL", "Qdrant", "Redis"],
+            githubRepo: "https://github.com/Timadey/cornvo",
+            image: "https://images.unsplash.com/photo-1677442d019cecf8978b9aaaa374c99a?w=800&h=400&fit=crop"
+        },
         {
             name: "Windsms",
             description: "High-volume SMS marketing platform with intelligent routing, delivery analytics, and automated scheduling.",
