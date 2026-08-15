@@ -10,7 +10,7 @@ export const portfolioData = {
         status: "Managing DocsandDecks"
     },
 
-    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-of[...]
+    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-offs, and impact. I've built things that scale—from backend infrastructure handling millions of transactions to end-to-end products that people rely on daily.",
 
     whatIBuild: [
         {
@@ -74,7 +74,7 @@ export const portfolioData = {
         },
         {
             name: "CodeDraft",
-            description: "VS Code extension that turns coding progress into publishable posts. Captures code snippets, integrates with Git, and generates ready-to-publish Markdown drafts with AI.",
+            description: "VS Code extension that turns coding progress into publishable posts. Captures code snippets, integrates with Git, and generates ready-to-publish Markdown drafts with AI support.",
             tech: ["TypeScript", "VS Code API", "Ollama", "OpenAI", "Anthropic"],
             githubRepo: "https://github.com/Timadey/codedraft",
             liveLink: "https://marketplace.visualstudio.com/items?itemName=timadey.codedraft",
