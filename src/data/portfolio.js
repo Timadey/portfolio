@@ -65,6 +65,22 @@ export const portfolioData = {
             image: "https://images.unsplash.com/photo-1677442d019cecf8978b9aaaa374c99a?w=800&h=400&fit=crop"
         },
         {
+            name: "Proctor",
+            description: "AI-powered exam proctoring system with advanced behavioral pattern detection. Comprehensive monitoring via visual detection, audio analysis, and browser telemetry with modular, extensible architecture.",
+            tech: ["JavaScript", "TypeScript", "MediaPipe", "WebRTC", "Web Audio API"],
+            githubRepo: "https://github.com/Timadey/proctor",
+            liveLink: "https://www.npmjs.com/package/@timadey/proctor",
+            image: "https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&h=400&fit=crop"
+        },
+        {
+            name: "CodeDraft",
+            description: "VS Code extension that turns coding progress into publishable posts. Captures code snippets, integrates with Git, and generates ready-to-publish Markdown drafts with AI.",
+            tech: ["TypeScript", "VS Code API", "Ollama", "OpenAI", "Anthropic"],
+            githubRepo: "https://github.com/Timadey/codedraft",
+            liveLink: "https://marketplace.visualstudio.com/items?itemName=timadey.codedraft",
+            image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop"
+        },
+        {
             name: "Windsms",
             description: "High-volume SMS marketing platform with intelligent routing, delivery analytics, and automated scheduling.",
             tech: ["Laravel", "Inertia", "ReactJs", "Postgres", "TailwindCSS"],
