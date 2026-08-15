@@ -10,7 +10,7 @@ export const portfolioData = {
         status: "Managing DocsandDecks"
     },
 
-    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-offs, and long-term impact.",
+    summary: "I care less about shiny demos and more about software that actually works at scale, solves real problems, and can evolve into a business. I enjoy coding, but I think in systems, trade-offs, and impact. I've built things that scale—from backend infrastructure handling millions of transactions to end-to-end products that people rely on daily.",
 
     whatIBuild: [
         {
@@ -35,7 +35,7 @@ export const portfolioData = {
                 "Built an in-house email marketing system with 99% deliverability.",
                 "Refactored frontend from Bootstrap → React, reducing load time by 90%.",
                 "Automated internal processes using scripts + scraping to expose missing APIs.",
-                "Optimized background jobs, doubling execution speed and improving uptime."
+                "Optimised background jobs, doubling execution speed and improving uptime."
             ],
             tech: ["Laravel", "MySQL", "React", "Python", "Docker", "Linux"]
         }
@@ -51,25 +51,50 @@ export const portfolioData = {
             image: "/images/windsms.png"
         },
         {
-            name: "CBT Engine",
-            description: "End-to-end exam administration system: question banks, exam delivery, scoring, and reporting for institutions.",
-            tech: ["Flask", "Docker", "Tailwind", "jQuery"],
-            githubRepo: "https://github.com/Timadey/cbt",
-            liveDemo: "https://cbtim.onrender.com",
-            image: "https://github.com/Timadey/cbt/raw/main/img/examination.png"
+            name: "Cornvo",
+            description: "AI agent setup and testing platform for seamless business integrations. Full-stack solution with FastAPI backend, Next.js frontend, vector search, and LangGraph orchestration.",
+            tech: ["Python", "FastAPI", "Next.js", "React", "PostgreSQL", "Qdrant", "Redis"],
+            githubRepo: "https://github.com/Timadey/cornvo",
+            liveLink: "https://cornvo.blackshade.site",
+            image: "https://storage.googleapis.com/statamic-cms-2b95/text/whatsapp-blog-01-a.png"
         },
         {
-            name: "Provinear API",
-            description: "Backend powering a campus marketplace—product discovery, vendor listings, search, and geolocation queries.",
-            tech: ["Laravel", "Postgres", "Swagger UI"],
-            githubRepo: "https://github.com/dynamosphere/provinear.hopper",
-            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop"
+            name: "Laravel Lazy Settings (package)",
+            description: "Enum-driven settings package for Laravel. Global admin settings or per-entity scoped settings (user/tenant) with lazy persistence, strict validation, and encryption support.",
+            tech: ["Laravel", "PHP", "Enums"],
+            githubRepo: "https://github.com/Timadey/laravel-lazy-settings",
+            liveLink: "https://packagist.org/packages/timadey/laravel-lazy-settings",
+            image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Qjm7nG8NFjkisjaMvAf9iw.png"
+        },
+        {
+            name: "TrailScope (package)",
+            description: "Laravel request tracing and user journey observability package with step logging, dashboard insights, and database or Redis storage. Real-time HTTP tracing with role-based access control.",
+            tech: ["Laravel", "PHP", "React", "Inertia", "PostgreSQL"],
+            githubRepo: "https://github.com/Timadey/trailscope",
+            liveLink: "https://packagist.org/packages/timadey/trailscope",
+            image: "https://rawcdn.githack.com/Timadey/trailscope/HEAD/art/logo.svg"
+        },
+        {
+            name: "Proctor (JS package)",
+            description: "AI-powered exam proctoring system with advanced behavioural pattern detection. Comprehensive monitoring via visual detection, audio analysis, and browser telemetry with modular, extensible architecture.",
+            tech: ["JavaScript", "TypeScript", "MediaPipe", "WebRTC", "Web Audio API"],
+            githubRepo: "https://github.com/Timadey/proctor",
+            liveLink: "https://www.npmjs.com/package/@timadey/proctor",
+            image: "https://testpress.tech/wp-content/uploads/2023/02/costly-proctoring-tool.webp"
+        },
+        {
+            name: "CodeDraft",
+            description: "VS Code extension that turns coding progress into publishable posts. Captures code snippets, integrates with Git, and generates ready-to-publish Markdown drafts with AI support.",
+            tech: ["TypeScript", "VS Code API", "Ollama", "OpenAI", "Anthropic"],
+            githubRepo: "https://github.com/Timadey/codedraft",
+            liveLink: "https://marketplace.visualstudio.com/items?itemName=timadey.codedraft",
+            image: "https://raw.githubusercontent.com/Timadey/codedraft/3cd963a8eec4b7e32578b66ab041079a7deffd87/assets/icon.png"
         },
         {
             name: "Docs & Decks Website & Admin Portal",
             description: "Responsive landing site with payment flow, plus an admin backend for student tracking and payment verification.",
-            tech: ["Laravel", "Supabase", "Tailwind", "ReactJs"],
-            liveLink: "https://www.docsanddecks.com",
+            tech: ["Laravel", "Supabase", "Tailwind", "ReactJS"],
+            liveLink: "https://dnd.blackshade.site",
             githubRepo: "https://github.com/Timadey/docsanddecks",
             image: "/images/docsanddecks.jpeg"
         },
@@ -84,9 +109,9 @@ export const portfolioData = {
         {
             name: "MeBudget",
             description: "A personal budget, expense and investment tracking application. Not the regular one.",
-            tech: ["ReactJs", "TailwindCSS", "Supabase"],
+            tech: ["Kotlin"],
             githubRepo: "https://github.com/Timadey/mebudget",
-            liveDemo: "https://mebudget-eta.vercel.app/",
+            liveDemo: "https://mebudget.blackshade.site/",
             image: "/images/mebudget.png"
         }
     ],
